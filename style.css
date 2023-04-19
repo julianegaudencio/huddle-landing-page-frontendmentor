@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+body {
+    background-image: url(images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.img-logo {
+    width: 180px;
+    height: 30px;
+    margin-left: 80px;
+}
+
+.button-header {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    margin-right: 80px;
+}
+
+.button-header a {
+    color: hsl(192, 100%, 9%);
+    text-decoration: none;
+    font-weight: 600;
+}
