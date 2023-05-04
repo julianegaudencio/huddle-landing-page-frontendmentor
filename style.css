@@ -4,6 +4,7 @@
 }
 
 body {
+    background-repeat: no-repeat;
     background-image: url(images/bg-hero-desktop.svg);
     background-color: hsl(193, 100%, 96%);
     font-family: 'Poppins', sans-serif;
@@ -17,9 +18,9 @@ header {
 }
 
 .img-logo {
-    width: 180px;
-    height: 30px;
-    margin-left: 80px;
+    width: 160px;
+    height: 25px;
+    margin-left: 100px;
 }
 
 .button-header {
@@ -28,7 +29,7 @@ header {
     border-radius: 30px;
     width: 200px;
     height: 50px;
-    margin-right: 80px;
+    margin-right: 100px;
 }
 
 .button-header a {
@@ -38,20 +39,48 @@ header {
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 30px;
     width: 330px;
-    margin-top: 140px;
-    margin-left: 80px;
+    margin-top: 120px;
+    margin-left: 100px;
     color: hsl(192, 100%, 9%);
 }
 
 p {
-    width: 340px;
-    margin-left: 80px;
+    width: 370px;
+    margin-left: 100px;
     margin-top: 15px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     line-height: 20px;
-    font-size: 12px;
+    font-size: 13px;
     color: hsl(192, 100%, 9%);
 }
+
+.button-section {
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 30px;
+    margin-top: 15px;
+    width: 190px;
+    height: 40px;
+    margin-left: 100px;
+}
+
+.button-section a {
+    font-size: 10px;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.img-section {
+    margin-top: -250px; 
+    margin-right: 100px;
+    float: right;
+    width: 650px;
+}
+
+
+
+
